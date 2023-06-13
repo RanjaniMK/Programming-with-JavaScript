@@ -1,3 +1,4 @@
 To demonstrate how to write JavaScript code inside the browser
 To demonstrate how to write basic JavaScript code: List common operators, conditional statements and loops
 To demonstrate how to use variables and output their values in the console
+To demonstrate testing using Jest
