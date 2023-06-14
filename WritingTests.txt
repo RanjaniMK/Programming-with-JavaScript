@@ -1,0 +1,19 @@
+# Writing tests with Jest to test JavaScript code:
+
+## In VSCode open the terminal and type in:
+'''
+node --version
+npm --version
+jest --version
+npm init -y
+npm install --save-dev jest
+
+'''
+## In the package.json file, in the scripts section, change the value of "test": to "jest" and save it.
+
+## Now run the following command:
+
+'''
+npm run test
+
+'''
