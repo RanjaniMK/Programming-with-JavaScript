@@ -1,17 +1,21 @@
 # Writing tests with Jest to test JavaScript code:
 
-## In VSCode open the terminal and type in:
+## In the VSCode UI, open the terminal and type in:
 
-node --version
-npm --version
-jest --version
+
+node --version :To check if node.js is installed
+npm --version  : To check if npm is installed
+jest --version  : To check if Jest is installed
+
+If Jest is not installed then type in the following commands to install it:
+
 npm init -y
 npm install --save-dev jest
 
 
 ## In the package.json file, in the scripts section, change the value of "test": to "jest" and save it.
 
-## Now run the following command:
+## Now run the following command to test code using Jest:
 
 
 npm run test
