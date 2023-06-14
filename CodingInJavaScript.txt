@@ -1,0 +1,5 @@
+As a first step, in order to start coding in JavaScript, you need to do the following:
+
+1. Download and install Visual Studio Code or VSCode.
+2. Download and install Node.js 
+3. Install the extension Code Runner inside VSCode.
