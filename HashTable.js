@@ -1,3 +1,6 @@
+// Application of hash table in real life 
+//Work in Progress
+
 class HashTable {
     constructor() {
       this.values = {};
