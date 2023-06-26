@@ -8,7 +8,7 @@ if(age >= 65){
 }
 
 else if (age <65&& age >=18){
-    console.log("Each motnh you get salary")
+    console.log("Each month you get salary")
 
 }
 
