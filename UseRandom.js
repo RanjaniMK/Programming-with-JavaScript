@@ -17,4 +17,4 @@ if(useRandom) {
     getNumber = specificNum
 }
 
-addTwoNums(getNumber(), getNumber())
+addTwoNums(getNumber(), getNumber())  // First Class Functions
