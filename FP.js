@@ -1,9 +1,10 @@
 //YTD
+
 // Building a function-based console log message generator
 function consoleStyler(color, background, fontSize, txt) {
     
-    var message = "%c" + txt;
-    var style = `color: ${color};`
+    let message = "%c" + txt;
+    let style = `color: ${color};`
     style += `background: ${background};`
     style += `font-size: ${fontSize};`
     console.log(message,style)
@@ -14,14 +15,14 @@ function consoleStyler(color, background, fontSize, txt) {
 
 // Building another console log message generator
 function celebrateStyler(reason) {
-    fontStyle = "color: tomato; font-size: 50px";
+     let fontStyle = "color: tomato; font-size: 50px";
     if (reason == "birthday") {
         console.log('%c  Happy Birthday', fontStyle);
     } else if (reason == "champions") {
         console.log('%c Congrats on the title!', fontStyle);
 
     } else {
-        console.log(message, style);
+        consoleStyler();
     }
 }
 
@@ -30,7 +31,7 @@ consoleStyler('#1d5c63', '#ede6db', '40px', 'Congrats!')
 celebrateStyler('birthday')
 
 // Inserting a congratulatory and custom message
-function styleAndCelebrate() {
+function styleAndCelebrate(color, background, fontSize, txt, reason) {
     
     consoleStyler(color, background, fontSize, txt);
     celebrateStyler(reason);
