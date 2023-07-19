@@ -8,4 +8,4 @@ const house3 ='red'
 
 const houses = new Set()
 houses.add(house1).add(house2).add(house3)
-console.log(houses) //O/T: Set(2) { 'red', 'blue' }
+console.log(houses) //O/P: Set(2) { 'red', 'blue' }

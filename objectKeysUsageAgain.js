@@ -6,4 +6,4 @@ const person = {
   };
   const keys = Object.keys(person);
 
-  console.log(keys) // O/T: (4) ['firstName', 'lastName', 'age', 'eyeColor']
+  console.log(keys) // O/P: (4) ['firstName', 'lastName', 'age', 'eyeColor']
