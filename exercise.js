@@ -1,11 +1,11 @@
 var h1=document.querySelector(h1)
-undefined
+//undefined
 var arr =['Example Domain',
           'First Click',
           'Second Click',
           'Third Click'
           ]
-undefined
+//undefined
 function handleClicks(){
     switch(h1.innerText){
         case arr[0]:h1.innerText=arr[1];
